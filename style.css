@@ -63,3 +63,17 @@ section h2 {
 section p {
     margin-top: 5px;
 }
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto 40px;
+    background-color: #222;
+    color: #fff;
+    width: 90%;
+    max-width: 800px;
+}
+.project img {
+    margin: 50px;
+    border-radius: 6px;
+}
