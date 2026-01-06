@@ -3,59 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kandakatla Rithwik Portfolio</title>
+    <title>Kandakatla Rithwik | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Kandakatla Rithwik</h1>
-        <p>Computer Science Student | Aspiring Software Engineer</p>
-        <img src="image copy.png" alt="Profile Picture" width="150" height="150">
-    </header>
-    <section>
-        <h2>About Me</h2>
-        <p>
-            I am a computer science student interested in programming,
-            data structures, and web development.
-        </p>
-    </section>
-    <section>
-        <h2>Skills</h2>
-        <div class="skills">
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Java</li>
-            <li>Python</li>
-            <li>Data Structures</li>
-            <li>Git & GitHub</li>
-            <li>App Development</li>
-        </ul>
-        </div>
-    </section>
 
-    <section>
-        <h2>Projects</h2>
-        <div class="project">
+<nav>
+    <div class="logo">RK</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="home" class="hero">
+    <h1>Hi there! I'm <span>Kandakatla Rithwik</span></h1>
+    <h2>Computer Science Student</h2>
+    <p>
+        CSE student at Kakatiya Institute of Technology and Science, Warangal.<br>
+        Interested in Web Development, Java, Python, and Machine Learning.<br>
+        Passionate about programming, data structures, and building impactful software solutions.
+    </p>
+</section>
+
+<section id="about" class="about-section">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-content">
+        <div class="about-text">
+            <h3>My Journey</h3>
+            <p>
+                I am a Computer Science Engineering student driven by curiosity, consistency,
+                and a strong problem-solving mindset. My core strength lies in understanding
+                how systems work from the ground up and transforming ideas into real-world
+                software solutions.
+            </p>
+
+            <p>
+                I have built a solid foundation in Data Structures, Java, Python, and Web
+                Development, while actively exploring Machine Learning platforms such as
+                TensorFlow, Edge Impulse, and Teachable Machine. I enjoy learning by building,
+                experimenting, and improving with every project I take up.
+            </p>
+
+            <p>
+                I believe discipline, clarity of thought, and hands-on practice are the keys
+                to becoming a strong engineer, and I continuously work towards refining these
+                skills.
+            </p>
+        </div>
+
+        <div class="about-cards">
+            <div class="about-card">
+                <div class="card-icon">🎓</div>
+                <h4>Education</h4>
+                <p>
+                    B.Tech in Computer Science & Engineering<br>
+                    Kakatiya Institute of Technology and Science
+                </p>
+            </div>
+
+            <div class="about-card">
+                <div class="card-icon">📊</div>
+                <h4>CGPA</h4>
+                <p>8.01 (Up to 4th Semester)</p>
+            </div>
+
+            <div class="about-card">
+                <div class="card-icon">📅</div>
+                <h4>Batch</h4>
+                <p>2023 – 2027</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Skills & Technologies</h2>
+
+    <div class="skill-group">
+        <h3>Programming Languages</h3>
+        <div class="skill-tags">
+            <span class="java">JAVA</span>
+            <span class="c">C</span>
+            <span class="python">PYTHON</span>
+        </div>
+    </div>
+
+    <div class="skill-group">
+        <h3>Frontend</h3>
+        <div class="skill-tags">
+            <span class="html">HTML5</span>
+            <span class="css">CSS3</span>
+            <span class="js">JAVASCRIPT</span>
+        </div>
+    </div>
+
+    <div class="skill-group">
+        <h3>Tools & Platforms</h3>
+        <div class="skill-tags">
+            <span class="tool">VS CODE</span>
+            <span class="tool">JUPYTER</span>
+        </div>
+    </div>
+
+    <div class="skill-group">
+        <h3>Machine Learning</h3>
+        <div class="skill-tags">
+            <span class="ml">NUMPY</span>
+            <span class="ml">TENSORFLOW</span>
+            <span class="ml">EDGE IMPULSE</span>
+            <span class="ml">TEACHABLE MACHINE</span>
+        </div>
+    </div>
+</section>
+
+<section id="experience" class="projects-section">
+    <h2 class="section-title">Experience & Achievements</h2>
+
+    <div class="project-card text-only">
+        <div class="project-content">
+            <h3>Industrial IoT Internship</h3>
+            <p>
+                Completed a 6-week short-term internship in Industrial IoT during
+                May 2025 – June 2025. Gained hands-on experience with embedded systems,
+                sensors, real-time data acquisition, and IoT-based industrial solutions.
+            </p>
+        </div>
+    </div>
+
+    <div class="project-card text-only">
+        <div class="project-content">
+            <h3>Smart India Hackathon 2025</h3>
+            <p>
+                Participated in Smart India Hackathon (November 2025), working in a team
+                to ideate, design, and implement innovative solutions for real-world
+                problem statements under competitive conditions.
+            </p>
+        </div>
+    </div>
+
+    <div class="project-card text-only">
+        <div class="project-content">
+            <h3>NPTEL – Database Management Systems</h3>
+            <p>
+                Successfully completed NPTEL certification in DBMS, gaining strong
+                knowledge in SQL, normalization, indexing, relational models,
+                and database design principles.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project-card">
+        <img src="esp32cam.png.jpg" alt="Project">
+        <div>
             <h3>Sign Language Translator Prototype</h3>
-            <p>AI-based system for translating sign language gestures.</p>
-            <h3>An AndoidApp for Sign Language Translator</h3>
-            <p>Done By Using Machine learning Platform </p>
-            <img src="esp32cam.png.jpg" alt="Project Image" width="250" height="250">
-            <img src="image.png" alt="Project Image" width="250" height="250">
-            
+            <p>
+                AI-based system that translates sign language gestures using machine learning
+                models and embedded devices.
+            </p>
         </div>
-    </section>
-    <section>
-        <h2>Personal Contact</h2>
-        <p>Email: rithwikkandakatla@gmail.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/rithwik-kandakatla" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/rithwik-kandakatla/</a></p>
-        
-    </section>
+    </div>
 
-    <footer>
-        <p> 2026 KandakatlaRithwik</p>
-    </footer>
+    <div class="project-card">
+        <img src="image.png" alt="Project">
+        <div>
+            <h3>Android App for Sign Language Translator</h3>
+            <p>
+                Mobile application developed using machine learning platforms to recognize and
+                translate hand gestures in real time.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <h2 class="section-title">Let’s Build Something Crazy</h2>
+
+    <div class="contact-box">
+        <p>📩 Drop a mail anytime:</p>
+        <a href="mailto:rithwikkandakatla@gmail.com">rithwikkandakatla@gmail.com</a>
+
+        <p>💼 Let’s connect professionally:</p>
+        <a href="https://www.linkedin.com/in/rithwik-kandakatla" target="_blank">
+            linkedin.com/in/rithwik-kandakatla
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Kandakatla Rithwik</p>
+</footer>
 
 </body>
 </html>
