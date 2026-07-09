@@ -1,208 +1,980 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kandakatla Rithwik | Portfolio</title>
+    <title>Rithwik Kandakatla | Software Engineer Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
-<nav>
-    <div class="logo">RK</div>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+    <!-- ================= NAVBAR ================= -->
 
-<section id="home" class="hero">
-    <h1>Hi there! I'm <span>Kandakatla Rithwik</span></h1>
-    <h2>Computer Science Student</h2>
-    <p>
-        CSE student at Kakatiya Institute of Technology and Science, Warangal.<br>
-        Interested in Web Development, Java, Python, and Machine Learning.<br>
-        Passionate about programming, data structures, and building impactful software solutions.
-    </p>
-</section>
+    <nav class="navbar">
 
-<section id="about" class="about-section">
-    <h2 class="section-title">About Me</h2>
-
-    <div class="about-content">
-        <div class="about-text">
-            <h3>My Journey</h3>
-            <p>
-                I am a Computer Science Engineering student driven by curiosity, consistency,
-                and a strong problem-solving mindset. My core strength lies in understanding
-                how systems work from the ground up and transforming ideas into real-world
-                software solutions.
-            </p>
-
-            <p>
-                I have built a solid foundation in Data Structures, Java, Python, and Web
-                Development, while actively exploring Machine Learning platforms such as
-                TensorFlow, Edge Impulse, and Teachable Machine. I enjoy learning by building,
-                experimenting, and improving with every project I take up.
-            </p>
-
-            <p>
-                I believe discipline, clarity of thought, and hands-on practice are the keys
-                to becoming a strong engineer, and I continuously work towards refining these
-                skills.
-            </p>
+        <div class="logo">
+            RK
         </div>
 
-        <div class="about-cards">
-            <div class="about-card">
-                <div class="card-icon">🎓</div>
-                <h4>Education</h4>
+        <ul class="nav-links">
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#experience">Experience</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#achievements">Achievements</a></li>
+
+            <li><a href="#education">Education</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-left">
+
+            <p class="welcome">
+                👋 Hello, I'm
+            </p>
+
+            <h1>
+
+                Rithwik <span>Kandakatla</span>
+
+            </h1>
+
+            <h2>
+
+                Software Engineer
+
+                <span>|</span>
+
+                Full Stack Developer
+
+                <span>|</span>
+
+                Backend Developer
+
+            </h2>
+
+            <p class="hero-desc">
+
+                Motivated Computer Science undergraduate with hands-on experience in
+                Full Stack Development, Backend Engineering, Artificial Intelligence,
+                and IoT solutions.
+
+                Passionate about building scalable web applications using
+                React, Node.js, FastAPI, MongoDB, PostgreSQL and modern AI technologies
+                like Google Gemini API and Retrieval-Augmented Generation (RAG).
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    View Projects
+
+                </a>
+
+                <a href="Kandakatla_Rithwik_Resume.pdf"
+                    download
+                    class="btn secondary">
+
+                    <i class="fa-solid fa-download"></i>
+
+                    Download Resume
+
+                </a>
+
+            </div>
+
+
+            <div class="social-icons">
+
+                <a href="https://github.com/KandakatlaRithwik"
+                    target="_blank">
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+                <a href="https://linkedin.com/in/rithwik-kandakatla"
+                    target="_blank">
+
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+
+                <a href="mailto:rithwikkandakatla@gmail.com">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-right">
+
+            <div class="profile-card">
+
+                <img src="profile.jpg"
+                    alt="Profile">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+
+        <h2 class="section-title">
+
+            About Me
+
+        </h2>
+
+        <div class="about-container">
+
+            <div class="about-left">
+
+                <h3>
+
+                    Building Innovative Software Solutions
+
+                </h3>
+
                 <p>
-                    B.Tech in Computer Science & Engineering<br>
-                    Kakatiya Institute of Technology and Science
+
+                    I am a Computer Science undergraduate at
+                    <strong>Kakatiya Institute of Technology, Warangal</strong>,
+                    pursuing my Bachelor's degree in Computer Science and Engineering
+                    with a CGPA of <strong>8.10</strong>.
+
                 </p>
+
+                <p>
+
+                    My primary interests lie in Software Engineering,
+                    Backend Development,
+                    Full Stack Web Development,
+                    Artificial Intelligence,
+                    and scalable application development.
+
+                </p>
+
+                <p>
+
+                    During my internships, I have worked on MERN Stack
+                    applications, RESTful APIs,
+                    authentication systems,
+                    AI-powered healthcare platforms,
+                    embedded IoT systems,
+                    and real-time machine learning solutions.
+
+                </p>
+
+                <p>
+
+                    I enjoy solving complex problems,
+                    learning emerging technologies,
+                    and building impactful software that improves user experience
+                    and business efficiency.
+
+                </p>
+
             </div>
 
-            <div class="about-card">
-                <div class="card-icon">📊</div>
-                <h4>CGPA</h4>
-                <p>8.10 (Up to 5th Semester)</p>
+
+            <div class="about-right">
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-user-graduate"></i>
+
+                    <h4>
+
+                        Education
+
+                    </h4>
+
+                    <p>
+
+                        B.Tech
+
+                        Computer Science & Engineering
+
+                    </p>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <h4>
+
+                        CGPA
+
+                    </h4>
+
+                    <p>
+
+                        8.10
+
+                    </p>
+
+                </div>
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-briefcase"></i>
+
+                    <h4>
+
+                        Internships
+
+                    </h4>
+
+                    <p>
+
+                        3 Completed
+
+                    </p>
+
+                </div>
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <h4>
+
+                        Projects
+
+                    </h4>
+
+                    <p>
+
+                        5+ Real World Projects
+
+                    </p>
+
+                </div>
+
             </div>
 
-            <div class="about-card">
-                <div class="card-icon">📅</div>
-                <h4>Batch</h4>
-                <p>2023 – 2027</p>
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS STARTS HERE ================= -->
+    <!-- ====================== SKILLS ====================== -->
+
+<section id="skills" class="skills-section">
+
+    <h2 class="section-title">Technical Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-box">
+            <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+
+            <div class="skill-tags">
+                <span>Java</span>
+                <span>Python</span>
+                <span>C</span>
+                <span>JavaScript</span>
             </div>
         </div>
+
+        <div class="skill-box">
+            <h3><i class="fa-solid fa-laptop-code"></i> Frontend</h3>
+
+            <div class="skill-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>React.js</span>
+                <span>Responsive Design</span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <h3><i class="fa-solid fa-server"></i> Backend</h3>
+
+            <div class="skill-tags">
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>FastAPI</span>
+                <span>REST APIs</span>
+                <span>JWT Authentication</span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <h3><i class="fa-solid fa-database"></i> Databases</h3>
+
+            <div class="skill-tags">
+                <span>MongoDB</span>
+                <span>PostgreSQL</span>
+                <span>MySQL</span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <h3><i class="fa-solid fa-brain"></i> AI & Machine Learning</h3>
+
+            <div class="skill-tags">
+                <span>Google Gemini API</span>
+                <span>RAG</span>
+                <span>NLP</span>
+                <span>ChromaDB</span>
+                <span>OCR</span>
+                <span>Edge Impulse</span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <h3><i class="fa-solid fa-mobile-screen"></i> Mobile Development</h3>
+
+            <div class="skill-tags">
+                <span>Android Studio</span>
+                <span>Kotlin</span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <h3><i class="fa-solid fa-microchip"></i> IoT & Embedded</h3>
+
+            <div class="skill-tags">
+                <span>ESP32-CAM</span>
+                <span>Arduino Uno</span>
+                <span>Embedded Systems</span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <h3><i class="fa-solid fa-toolbox"></i> Tools</h3>
+
+            <div class="skill-tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+            </div>
+        </div>
+
     </div>
+
 </section>
 
-<section id="skills">
-    <h2 class="section-title">Skills & Technologies</h2>
 
-    <div class="skill-group">
-        <h3>Programming Languages</h3>
-        <div class="skill-tags">
-            <span class="java">JAVA</span>
-            <span class="c">C</span>
-            <span class="python">PYTHON</span>
+<!-- ====================== EXPERIENCE ====================== -->
+
+<section id="experience">
+
+    <h2 class="section-title">
+
+        Internship Experience
+
+    </h2>
+
+    <div class="timeline">
+
+        <!-- Internship 1 -->
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <h3>
+                    Full Stack Web Development Intern
+                </h3>
+
+                <h4>
+                    Unified Mentor Pvt. Ltd.
+                </h4>
+
+                <span>
+                    April 2026 – October 2026
+                </span>
+
+                <ul>
+
+                    <li>
+                        Developed modern MERN stack applications including
+                        RentEase and Elderly Healthcare Nursing Platform.
+                    </li>
+
+                    <li>
+                        Built responsive user interfaces using React.js.
+                    </li>
+
+                    <li>
+                        Developed REST APIs using Node.js and Express.js.
+                    </li>
+
+                    <li>
+                        Integrated MongoDB and authentication systems.
+                    </li>
+
+                </ul>
+
+            </div>
+
         </div>
+
+
+
+        <!-- Internship 2 -->
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <h3>
+                    Backend Developer Intern
+                </h3>
+
+                <h4>
+                    CodeAlpha
+                </h4>
+
+                <span>
+                    June 2026 – July 2026
+                </span>
+
+                <ul>
+
+                    <li>
+                        Developed scalable RESTful APIs.
+                    </li>
+
+                    <li>
+                        Implemented backend authentication systems.
+                    </li>
+
+                    <li>
+                        Worked with Node.js, Express.js and databases.
+                    </li>
+
+                    <li>
+                        Built secure backend functionalities for web applications.
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Internship 3 -->
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <h3>
+
+                    Industrial IoT Intern
+
+                </h3>
+
+                <h4>
+
+                    National Institute of Technology (NIT) Warangal
+
+                </h4>
+
+                <span>
+
+                    May 2025 – June 2025
+
+                </span>
+
+                <ul>
+
+                    <li>
+                        Built Edge AI solutions using ESP32-CAM.
+                    </li>
+
+                    <li>
+                        Developed embedded machine learning applications.
+                    </li>
+
+                    <li>
+                        Worked with Arduino Uno and Edge Impulse.
+                    </li>
+
+                    <li>
+                        Implemented real-time ML inference on embedded devices.
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="skill-group">
-        <h3>Frontend</h3>
-        <div class="skill-tags">
-            <span class="html">HTML5</span>
-            <span class="css">CSS3</span>
-            <span class="js">JAVASCRIPT</span>
-        </div>
-    </div>
-
-    <div class="skill-group">
-        <h3>Tools & Platforms</h3>
-        <div class="skill-tags">
-            <span class="tool">VS CODE</span>
-            <span class="tool">JUPYTER</span>
-        </div>
-    </div>
-
-    <div class="skill-group">
-        <h3>Machine Learning</h3>
-        <div class="skill-tags">
-            <span class="ml">NUMPY</span>
-            <span class="ml">TENSORFLOW</span>
-            <span class="ml">EDGE IMPULSE</span>
-            <span class="ml">TEACHABLE MACHINE</span>
-        </div>
-    </div>
 </section>
 
-<section id="experience" class="projects-section">
-    <h2 class="section-title">Experience & Achievements</h2>
+<!-- ====================== PROJECTS START ====================== -->
+<!-- ===================== PROJECTS ===================== -->
 
-    <div class="project-card text-only">
-        <div class="project-content">
-            <h3>Industrial IoT Internship</h3>
-            <p>
-                Completed a 6-week short-term internship in Industrial IoT during
-                May 2025 – June 2025. Gained hands-on experience with embedded systems,
-                sensors, real-time data acquisition, and IoT-based industrial solutions.
-            </p>
+<section id="projects" class="projects-section">
+
+    <h2 class="section-title">Featured Projects</h2>
+
+    <div class="projects-grid">
+
+        <!-- MediAI -->
+
+        <div class="project-card">
+
+            <img src="mediai.png" alt="MediAI">
+
+            <div class="project-content">
+
+                <h3>🩺 MediAI – AI Medical Assistant</h3>
+
+                <p>
+                    AI-powered healthcare platform developed using FastAPI,
+                    React, PostgreSQL and Google Gemini API.
+                    Features secure authentication, OCR, Retrieval-Augmented
+                    Generation (RAG), ChromaDB integration and intelligent
+                    medical report analysis.
+                </p>
+
+                <div class="tech-stack">
+                    <span>FastAPI</span>
+                    <span>React</span>
+                    <span>PostgreSQL</span>
+                    <span>Gemini API</span>
+                    <span>RAG</span>
+                    <span>JWT</span>
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="#" target="_blank" class="btn primary">
+                        Live Demo
+                    </a>
+
+                    <a href="#" target="_blank" class="btn secondary">
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
         </div>
+
+
+        <!-- Elderly -->
+
+        <div class="project-card">
+
+            <img src="elderly.png" alt="Healthcare">
+
+            <div class="project-content">
+
+                <h3>🏥 Elderly Healthcare Nursing Platform</h3>
+
+                <p>
+
+                    Complete healthcare management platform developed during
+                    internship using MERN Stack.
+
+                    Includes authentication,
+                    appointment booking,
+                    dashboards and patient management.
+
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>MongoDB</span>
+
+                    <span>Express</span>
+
+                    <span>React</span>
+
+                    <span>Node.js</span>
+
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="#" class="btn primary">
+
+                        Live Demo
+
+                    </a>
+
+                    <a href="#" class="btn secondary">
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- RentEase -->
+
+        <div class="project-card">
+
+            <img src="rentease.png" alt="RentEase">
+
+            <div class="project-content">
+
+                <h3>🏠 RentEase</h3>
+
+                <p>
+
+                    Full Stack Rental Property Management System
+                    built using MERN Stack.
+
+                    Allows users to browse,
+                    manage and rent properties
+                    with secure authentication.
+
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>React</span>
+
+                    <span>Node</span>
+
+                    <span>MongoDB</span>
+
+                    <span>Express</span>
+
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="#" class="btn primary">
+
+                        Live Demo
+
+                    </a>
+
+                    <a href="#" class="btn secondary">
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Employee -->
+
+        <div class="project-card">
+
+            <img src="employee.png" alt="Employee Tracking">
+
+            <div class="project-content">
+
+                <h3>👨‍💼 Employee Tracking System</h3>
+
+                <p>
+
+                    MERN Stack application for
+                    managing employee information,
+                    attendance and administrative operations.
+
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>MongoDB</span>
+
+                    <span>Express</span>
+
+                    <span>React</span>
+
+                    <span>Node.js</span>
+
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="#" class="btn primary">
+
+                        Live Demo
+
+                    </a>
+
+                    <a href="#" class="btn secondary">
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Sign Language -->
+
+        <div class="project-card">
+
+            <img src="signlanguage.png" alt="Sign Language">
+
+            <div class="project-content">
+
+                <h3>🤟 AI Sign Language Translator</h3>
+
+                <p>
+
+                    ESP32-CAM based Edge AI system
+                    with Android application
+                    for recognizing sign language
+                    and converting gestures into text.
+
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>ESP32-CAM</span>
+
+                    <span>Android</span>
+
+                    <span>Edge Impulse</span>
+
+                    <span>Embedded AI</span>
+
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="#" class="btn secondary">
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="project-card text-only">
-        <div class="project-content">
+</section>
+
+
+
+<!-- ===================== ACHIEVEMENTS ===================== -->
+
+<section id="achievements">
+
+    <h2 class="section-title">Achievements & Certifications</h2>
+
+    <div class="achievement-grid">
+
+        <div class="achievement-card">
+
+            🏆
+
             <h3>Smart India Hackathon 2025</h3>
-            <p>
-                Participated in Smart India Hackathon (November 2025), working in a team
-                to ideate, design, and implement innovative solutions for real-world
-                problem statements under competitive conditions.
-            </p>
+
+            <p>Participant</p>
+
         </div>
+
+        <div class="achievement-card">
+
+            📜
+
+            <h3>Backend Developer</h3>
+
+            <p>CodeAlpha Certification</p>
+
+        </div>
+
+        <div class="achievement-card">
+
+            ⭐
+
+            <h3>Letter of Recommendation</h3>
+
+            <p>CodeAlpha Internship</p>
+
+        </div>
+
+        <div class="achievement-card">
+
+            🎓
+
+            <h3>NPTEL DBMS</h3>
+
+            <p>Database Management Systems</p>
+
+        </div>
+
     </div>
 
-    <div class="project-card text-only">
-        <div class="project-content">
-            <h3>NPTEL – Database Management Systems</h3>
-            <p>
-                Successfully completed NPTEL certification in DBMS, gaining strong
-                knowledge in SQL, normalization, indexing, relational models,
-                and database design principles.
-            </p>
-        </div>
-    </div>
 </section>
 
 
-<section id="projects">
-    <h2 class="section-title">Projects</h2>
 
-    <div class="project-card">
-        <img src="esp32cam.png.jpg" alt="Project">
-        <div>
-            <h3>Sign Language Translator Prototype</h3>
-            <p>
-                AI-based system that translates sign language gestures using machine learning
-                models and embedded devices.
-            </p>
-        </div>
+<!-- ===================== EDUCATION ===================== -->
+
+<section id="education">
+
+    <h2 class="section-title">Education</h2>
+
+    <div class="education-card">
+
+        <h3>Bachelor of Technology</h3>
+
+        <h4>Computer Science & Engineering</h4>
+
+        <p>Kakatiya Institute of Technology, Warangal</p>
+
+        <p>2023 – 2027</p>
+
+        <p><strong>CGPA : 8.10</strong></p>
+
     </div>
 
-    <div class="project-card">
-        <img src="image.png" alt="Project">
-        <div>
-            <h3>Android App for Sign Language Translator</h3>
-            <p>
-                Mobile application developed using machine learning platforms to recognize and
-                translate hand gestures in real time.
-            </p>
-        </div>
-    </div>
 </section>
 
-<section id="contact" class="contact-section">
-    <h2 class="section-title">Let’s Build Something Crazy</h2>
 
-    <div class="contact-box">
-        <p>📩 Drop a mail anytime:</p>
-        <a href="mailto:rithwikkandakatla@gmail.com">rithwikkandakatla@gmail.com</a>
 
-        <p>💼 Let’s connect professionally:</p>
-        <a href="https://www.linkedin.com/in/rithwik-kandakatla" target="_blank">
-            linkedin.com/in/rithwik-kandakatla
-        </a>
+<!-- ===================== CONTACT ===================== -->
+
+<section id="contact">
+
+    <h2 class="section-title">
+
+        Let's Connect
+
+    </h2>
+
+    <div class="contact-card">
+
+        <p>
+
+            📧 rithwikkandakatla@gmail.com
+
+        </p>
+
+        <p>
+
+            📱 +91 7207086671
+
+        </p>
+
+        <p>
+
+            💼 linkedin.com/in/rithwik-kandakatla
+
+        </p>
+
+        <p>
+
+            💻 github.com/KandakatlaRithwik
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="Kandakatla_Rithwik_Resume.pdf"
+                download
+                class="btn primary">
+
+                Download Resume
+
+            </a>
+
+        </div>
+
     </div>
+
 </section>
+
+
 
 <footer>
-    <p>© 2026 Kandakatla Rithwik</p>
+
+    <p>
+
+        © 2026 Rithwik Kandakatla
+
+    </p>
+
+    <p>
+
+        Designed & Developed by Rithwik
+
+    </p>
+
 </footer>
 
+<script src="script.js"></script>
+
 </body>
+
 </html>
